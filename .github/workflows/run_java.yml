@@ -25,5 +25,5 @@ jobs:
         find JavaEducation
         cd JavaEducation/src/src
         pwd
-        ls
-        java HelloWorld
+        ls /home/runner/work/java_education/java_education/JavaEducation/src/src/
+        java /home/runner/work/java_education/java_education/JavaEducation/src/src/HelloWorld
