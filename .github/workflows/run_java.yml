@@ -22,4 +22,5 @@ jobs:
     - name: Compile and run HelloWorld.java
       run: |
         javac JavaEducation/src/src/HelloWorld.java
+        find JavaEducation
         java JavaEducation/src/src/HelloWorld
