@@ -14,7 +14,10 @@ jobs:
     - name: Set up Java
       uses: actions/setup-java@v3
       with:
-        java-version: '11' # Specify the Java version
+        java-version: 11
+        java-package: jdk
+        distribution: temurin # Set default distribution here
+        check-latest: false
 
     - name: Compile Java File
       run: |
