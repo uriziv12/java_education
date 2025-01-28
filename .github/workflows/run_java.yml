@@ -23,7 +23,7 @@ jobs:
       run: |
         javac JavaEducation/src/src/HelloWorld.java
         find JavaEducation
-        cd JavaEducation/src/src
+        cd JavaEducation/src
         pwd
-        ls /home/runner/work/java_education/java_education/JavaEducation/src/src/
-        java /home/runner/work/java_education/java_education/JavaEducation/src/src/HelloWorld
+        find .
+        java HelloWorld
