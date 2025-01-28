@@ -19,10 +19,16 @@ jobs:
         distribution: temurin # Set default distribution here
         check-latest: false
 
-    - name: Compile and run HelloWorld.java
+    - name: Compile HelloWorld.java
       run: |
         cd JavaEducation/src/src
         javac HelloWorld.java
+        pwd
+        ls
+
+    - name: Run java HelloWorld
+      run: |
+        cd JavaEducation/src/src
         pwd
         ls
         java HelloWorld
