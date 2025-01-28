@@ -22,6 +22,10 @@ jobs:
     - name: Compile Java File
       run: |
         javac JavaEducation/src/src/HelloWorld.java
+  
+    - name: Find the new compiled file
+      run: |
+        find JavaEducation
 
     - name: Run Java Code
       run: |
