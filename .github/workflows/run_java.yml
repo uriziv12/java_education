@@ -28,4 +28,5 @@ jobs:
 
     - name: Run java HelloWorld
       run: |
+        pwd
         java JavaEducation/src/src/HelloWorld
