@@ -26,4 +26,4 @@ jobs:
         cd JavaEducation/src/src
         pwd
         ls
-        java JavaEducation/src/src/HelloWorld
+        java HelloWorld
