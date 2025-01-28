@@ -25,4 +25,4 @@ jobs:
 
     - name: Run Java Code
       run: |
-        java JavaEducation/src/src/HelloWorld.class
+        java JavaEducation/src/src/HelloWorld
