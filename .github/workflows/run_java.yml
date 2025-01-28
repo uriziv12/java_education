@@ -28,7 +28,4 @@ jobs:
 
     - name: Run java HelloWorld
       run: |
-        cd JavaEducation/src/src
-        pwd
-        ls
-        java HelloWorld
+        java JavaEducation/src/src/HelloWorld
